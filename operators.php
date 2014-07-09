@@ -40,4 +40,12 @@ echo (bool)$a;
 * This will not show anything. Because when found 0 even in string, it will output false.
 * So, nothing will be shown.
 */
+$a='3';
+$b=5;
+if(3==$a){
+	echo "Hello<br/>";
+}
+if(3===$a){
+	echo "Hi";
+}
 ?>
